@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="weather_widget">
+        <form class="search_bar">
+          <input name="city" type="text" placeholder="Search here" />
+          <button type="submit">Submit</button>
+        </form>
+
+        <div class="weather_icon"></div>
+        
+        <div class="details">
+          <div class="city"></div>
+          <div class="date"></div>
+          <div class="temperature"></div>
+          <div class="weather_details">
+            <div class="wind"></div>
+            <div class="humidity"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
